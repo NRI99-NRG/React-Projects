@@ -3,7 +3,7 @@ import { useState } from 'react'
 import './App.css'
 
 function App() {
-  const [counter,setcounter] = useState(15)
+  const [counter,setcounter] = useState(0)
  // let counter = 15
 
   const addValue = () => {
